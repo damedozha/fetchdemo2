@@ -17,7 +17,7 @@ button.addEventListener("click", function(){
             console.log(countryData)
             const flagImage = document.createElement("img")
             flagImage.src = countryData.flag
-            flagImage.classList.add(".flag")
+            flagImage.classList.add("flag")
             document.body.append(flagImage)     
             
         });
